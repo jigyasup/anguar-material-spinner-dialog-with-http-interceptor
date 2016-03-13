@@ -1,0 +1,31 @@
+<!doctype html>
+<html ng-app="plunker" >
+<head>
+  <meta charset="utf-8">
+  <title>AngularJS Plunker</title>
+  <script>document.write('<base href="' + document.location + '" />');</script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.gitcdn.link/cdn/angular/bower-material/v1.1.0-rc1/angular-material.css">
+  <script src="https://code.angularjs.org/1.4.5/angular.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular-resource.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-aria.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-messages.min.js"></script>
+<script src="https://cdn.gitcdn.link/cdn/angular/bower-material/v1.1.0-rc1/angular-material.js"></script>
+  <script src="script.js"></script>
+</head>
+<body ng-controller="MainCtrl">
+  <p style="background-color: #eee; padding: 12px">
+    {{content}}
+  </p>
+  
+  <p>
+    <button ng-click="fetchAsync()">Fetch async</button>
+    <button ng-click="fetchAsync(true)">Fetch with error</button>
+    <button ng-click="content='No content loaded'">Reset</button>
+  </p>
+  <loading></loading>
+  
+</body>
+</html>
