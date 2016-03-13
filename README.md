@@ -101,6 +101,7 @@ I have created a directive called "loading" for spinner like this:
  Now you can use this directive as  <loading></loading> in your layout . 
  
  I have uploaded a fully working example of http interceptor spinner loader directive in plunker .
+ 
  Link: https://embed.plnkr.co/Iom7kgWULpNLGYRzbz4l/
  
  Here are my plnkers: https://plnkr.co/users/jigyasup
